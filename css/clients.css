@@ -1,0 +1,67 @@
+.navbar {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+.title1 {
+    color: rgb(45, 45, 45);
+}
+
+.title2 {
+    color: rgb(45, 45, 45);
+}
+
+.navcontainer1 {
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title1 {
+font-weight: bold;
+margin-top: 16px;
+}
+
+.navcontainer1 p{
+font-size: 26px;
+margin-left: 10px;
+}
+
+.navcontainer2 {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    color: gray;
+    margin-top: 16px;
+}
+
+.navcontainer2 p:hover {
+    color: black;
+    cursor: pointer;
+}
+
+a {
+text-decoration: none;
+color: gray;
+}
+
+.namecontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.p1, .p2, .p3 {
+    width: 200px;
+    color: gray;
+}
+
+.clientsbutton {
+    color: black;
+}
+
+.home1 {
+    color: rgb(45, 45, 45);
+}

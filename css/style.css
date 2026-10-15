@@ -1,0 +1,106 @@
+.navbar {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+.title1 {
+    color: rgb(45, 45, 45);
+}
+
+.title2 {
+    color: rgb(45, 45, 45);
+}
+
+.navcontainer1 {
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title1 {
+font-weight: bold;
+margin-top: 16px;
+}
+
+.navcontainer1 p{
+font-size: 26px;
+margin-left: 10px;
+}
+
+.navcontainer2 {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    color: gray;
+    margin-top: 16px;
+}
+
+.navcontainer2 p:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.imagecontainer {
+    position: relative;
+    justify-self: center;
+    width: 1030px;
+}
+
+.imagecontainer img {
+    width: 1030px;
+}
+
+.slide {
+    object-fit: cover;
+    width: 1030px;
+    opacity: 1;
+    position: absolute;
+    animation: fade 12s infinite;
+}
+
+.slide1 {
+    animation-delay: 0s;
+}
+
+.slide2 {
+    animation-delay: 4s;
+}
+
+.slide3 {
+    animation-delay: 8s;
+}
+
+.socialmedia {
+    position: absolute;
+    left: 70%;
+    top: 86.5%;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.home1 {
+    color: rgb(45, 45, 45);
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    8% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    33% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,86 @@
+.navbar {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+.navcontainer1 {
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title1 {
+font-weight: bold;
+margin-top: 16px;
+}
+
+.navcontainer1 p{
+font-size: 26px;
+margin-left: 10px;
+}
+
+.navcontainer2 {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    color: gray;
+    margin-top: 16px;
+}
+
+.navcontainer2 p:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.navcontainer2 p .a {
+    text-decoration: none;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(45, 45, 45);
+}
+
+.newsbutton {
+    color: black;
+}
+
+.newscontainer {
+    position: absolute;
+    left: 16.5%;
+}
+.newsccontainer2 {
+display: flex;
+}
+.newscontainer2 .bigimage {
+    width: 800px;
+}
+
+.newscontainer2 .divimg .smallimage {
+    position: absolute;
+    height: 40px;
+    top: 0%;
+    left: 110%;
+}
+
+.texts {
+    position: absolute;
+    top: 80%;
+    left: 16.5%;
+}
+
+.texts h1 {
+    font-size: 26px;
+}
+
+.texts .p {
+    color: gray;
+    font-size: 16px;
+}
+
+.newsinfo {
+    width: 800px;
+}
